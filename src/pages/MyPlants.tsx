@@ -73,8 +73,6 @@ export function MyPlants() {
                         <PlantCardSecondary data={item} />
                     )}
                     showsVerticalScrollIndicator={false}
-                    onEndReachedThreshold={0.1}
-                    contentContainerStyle={{ flex: 1 }}
                 />
             </View>
 
@@ -108,6 +106,7 @@ const styles = StyleSheet.create({
         flex: 1,
         color: colors.blue,
         paddingHorizontal: 20,
+        textAlign: 'justify'
     },
     plants: {
         flex: 1,
